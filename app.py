@@ -10,9 +10,9 @@ st.title(" System Log Error Predictor")
 # Load both models
 model_paths = {
 
-    "SMOTE-based Model": r'C:\Users\Akash tiwari\log prediction model\model_smote.pkl',
+    "SMOTE-based Model": r'model_smote.pkl',
                          
-    "Class-Weighted Model": r'C:\Users\Akash tiwari\log prediction model\model_class_weight.pkl'
+    "Class-Weighted Model": r'model_class_weight.pkl'
 }
 
 model_choice = st.selectbox(" Choose Prediction Model", list(model_paths.keys()))
