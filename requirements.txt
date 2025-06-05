@@ -5,3 +5,5 @@ lightgbm
 streamlit
 imbalanced-learn
 joblib
+matplotlib
+seaborn
