@@ -59,6 +59,6 @@ print(classification_report(y_test, y_pred_weighted))
 print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred_weighted))
 
 # 10. Save the model
-output_path = r"C:\Users\Akash tiwari\PycharmProjects\PythonProject\Web_Logs_Error_Prediction_Using_LGBM\Models\model_class_weight.pkl"
+output_path = r"model_class_weight.pkl"
 joblib.dump(model_weighted, output_path)
 print(f"\n Model saved at: {output_path}")
