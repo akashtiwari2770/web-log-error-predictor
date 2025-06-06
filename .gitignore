@@ -26,7 +26,10 @@ Thumbs.db
 # Logs
 *.log
 
-# Models and data
+# Ignore all model/data files globally...
 *.pkl
 *.csv
 *.json
+
+# ...except allow model files in Models/ folder
+!Models/*.pkl
