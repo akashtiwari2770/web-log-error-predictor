@@ -59,4 +59,4 @@ print(classification_report(y_test, y_pred_smote))
 print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred_smote))
 
 #  7. Save
-joblib.dump(model_smote, r'C:\Users\Akash tiwari\PycharmProjects\PythonProject\Web_Logs_Error_Prediction_Using_LGBM\Models\model_smote.pkl')
+joblib.dump(model_smote, r'model_smote.pkl')
