@@ -23,13 +23,3 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
-
-# Ignore all model/data files globally...
-*.pkl
-*.csv
-*.json
-
-# ...except allow model files in Models/ folder
-!Models/*.pkl
